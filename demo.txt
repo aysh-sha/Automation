@@ -1,0 +1,14 @@
+class{
+ExtentReports extent;
+ScreenshotReader ssr;
+
+
+
+
+
+
+
+excel= new ExcelReader(System.getproperty("user.dir")+ "\\Datasource\\Data.xlsx");
+ssr = new ScreenshotReader;
+
+extent= new ExtentReader;
